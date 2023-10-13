@@ -59,6 +59,12 @@ ul{
     padding: 10px;
 }
 
+.nav-main ul li a:hover{
+border-bottom:2px solid ;
+
+
+}
+
 .nav-main ul.nav-menu {
     flex: 1;
     margin-left: 20px;
