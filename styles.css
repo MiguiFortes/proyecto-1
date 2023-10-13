@@ -71,4 +71,44 @@ border-bottom:2px solid ;
 
 }
 
-    
+/*SHOWCASE*/
+hr{
+    margin: 10px;
+
+}
+
+.showcase {
+    width: 100%;
+   height: 550px;
+   background: url(https://e2.365dm.com/23/03/1600x900/skysports-fernando-alonso-aston_6076727.jpg) no-repeat center center/cover;
+   padding-bottom: 50px;
+   display: flex;
+   flex-direction: column;
+   align-items:center ;
+   justify-content: flex-end;
+}
+
+.btn{
+    cursor: pointer;
+    display: inline-block;
+    border:0;
+    font-weight:bold ;
+    padding: 10px 20px;
+    background: #262626;
+    color:#ffffff;
+    font-size: 15px;
+    border: 1px solid #ffffff;
+    margin: 15px 0px;
+
+    }
+
+.btn:hover{
+opacity: .7;
+
+}
+
+.showcase h2,
+.showcase p{
+    margin-bottom: 10px;
+
+}
