@@ -81,7 +81,7 @@ hr{
     width: 100%;
    height: 550px;
    background: url(https://e2.365dm.com/23/03/1600x900/skysports-fernando-alonso-aston_6076727.jpg) no-repeat center center/cover;
-   padding-bottom: 50px;
+   padding: 50px;
    display: flex;
    flex-direction: column;
    align-items:center ;
@@ -201,6 +201,34 @@ margin: 50px;
 
 .social p {
     text-align: center;
-    font-size: 30;
-    
+    font-size: 30px;
+    margin-bottom: 20px;
+
     }
+
+.links{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.links a {
+
+    margin: 0 20px;
+}
+.links a i{
+font-size: 3rem;
+
+}
+
+@media (max-width:700px ){
+    .quien-soy{
+        grid-template-columns: repeat(2,1fr);
+
+    }
+    .cards-banner-one .content,
+    .cards-banner-two .content{
+
+        width: 80%;
+    }
+}
