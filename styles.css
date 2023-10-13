@@ -174,3 +174,13 @@ text-decoration: underline;
     margin: 10px 0 20px 0;
 
 }
+
+/*CARS TWO*/
+
+.cards-banner-two{
+    padding: 100px;
+    margin: auto;
+     background: url(https://static.tickets-platform.com/img/pages/39/2131/255/media/3/desktop/image_group-4.jpg?ts=1567173141) no-repeat center center/cover;
+
+
+}
