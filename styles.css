@@ -156,9 +156,7 @@ text-decoration: underline;
     width: 100%;
     height: 350px;
     background: url(https://images.daznservices.com/di/library/DAZN_News/82/b9/gp-silverstone-formula-1-motogp_1evqrslsd385y1e93cif1dzusp.jpg?t=-1391265871) no-repeat center center/cover;
-    margin-bottom: 40px;
-
-
+  
 }
 
 .cards-banner-one .content{
@@ -178,9 +176,31 @@ text-decoration: underline;
 /*CARS TWO*/
 
 .cards-banner-two{
-    padding: 100px;
-    margin: auto;
+    width:100%;
+    height: 350px;
      background: url(https://static.tickets-platform.com/img/pages/39/2131/255/media/3/desktop/image_group-4.jpg?ts=1567173141) no-repeat center center/cover;
 
 
 }
+
+.cards-banner-two .content{
+    width: 50%;
+    padding: 100px 0 0 30px;
+    color: #ffffff;
+
+
+}
+
+
+/*Social*/
+
+.social{
+margin: 50px;
+
+}
+
+.social p {
+    text-align: center;
+    font-size: 30;
+    
+    }
