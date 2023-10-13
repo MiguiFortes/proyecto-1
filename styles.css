@@ -86,6 +86,7 @@ hr{
    flex-direction: column;
    align-items:center ;
    justify-content: flex-end;
+   margin-bottom: 20px;
 }
 
 .btn{
@@ -111,4 +112,40 @@ opacity: .7;
 .showcase p{
     margin-bottom: 10px;
 
+}
+
+/*Quien soy*/
+
+.quien-soy{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap:25px;
+    margin: 10px 0px;
+}
+
+.quien-soy img {
+    width: 100%;
+    height: 180px;
+  
+}
+
+.quien-soy h3{
+    font-size: 20px;
+    margin: 10px 0px;
+}
+
+.quien-soy a{
+    padding: 10px 0px;
+    color: #f2f2f2;
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: bold;
+
+
+
+}
+
+.quien-soy a:hover{
+
+text-decoration: underline;
 }
