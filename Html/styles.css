@@ -90,18 +90,20 @@ hr{
 .showcase {
    width: 100%;
    height: 550px;
-   padding: 50px;
+   padding: 500px;
    display: flex;
    flex-direction: column;
    align-items:center ;
    justify-content: flex-end;
    margin-bottom: 20px;
-   object-fit: contain;
+   
    background: url(https://github.com/MiguiFortes/proyecto-1/blob/css/Html/img/i.jpeg?raw=true); 
+   object-fit: contain;
    background-position: center center;
    background-repeat: no-repeat;
    background-size: cover;
    padding: 35px;
+   
   
    
 }
@@ -210,7 +212,7 @@ text-decoration: underline;
 .cards-banner-two{
     width:100%;
     height: 350px;
-     background: url(https://static.tickets-platform.com/img/pages/39/2131/255/media/3/desktop/image_group-4.jpg?ts=1567173141) no-repeat center center/cover;
+     background: url(https://github.com/MiguiFortes/proyecto-1/blob/main/Html/img/editada.jpg?raw=true) no-repeat center center/cover;
 
 
 }
