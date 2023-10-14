@@ -89,13 +89,14 @@ hr{
 .showcase {
     width: 100%;
    height: 550px;
-   background: url(https://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2022%2F1124%2Fr1096018_1296x729_16%2D9.jpg) no-repeat center center/cover ; 
+   background: url(https://github.com/MiguiFortes/proyecto-1/blob/main/html/img/i.jpeg?raw=true) no-repeat center center/cover ; 
    padding: 50px;
    display: flex;
    flex-direction: column;
    align-items:center ;
    justify-content: flex-end;
    margin-bottom: 20px;
+   object-fit: contain;
    
 }
 
@@ -128,13 +129,18 @@ opacity: .7;
 
 .quien-soy{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     gap:25px;
     margin: 10px 0px;
 }
+.foto{
+margin-left: 60px;
+object-fit: contain;
+
+}
 
 .quien-soy img {
-    width: 100%;
+    width: 50%;
     height: 180px;
   
 }
