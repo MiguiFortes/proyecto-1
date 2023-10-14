@@ -6,8 +6,8 @@
 }
 
 body{
-    color:aliceblue;
-    background-color: #020202;
+    color:rgb(12, 13, 81);
+    background-color: #ffffff;
     font-size: 16px;
     font-family: 'Oswald', sans-serif;
   
@@ -42,6 +42,11 @@ ul{
 
 }
 
+.name-m{
+    font-size:x-large;
+    color:rgb(12, 13, 81);
+}
+
 .nav-brand {
     width: 50px;
     
@@ -66,7 +71,7 @@ border-bottom:2px solid ;
 
 .nav-main ul.nav-menu {
     flex: 1;
-    margin-left: 610px;
+    margin-left: 560px;
 
 }
 
@@ -97,7 +102,7 @@ hr{
    justify-content: flex-end;
    margin-bottom: 20px;
    
-   background: url(https://github.com/MiguiFortes/proyecto-1/blob/css/Html/img/i.jpeg?raw=true); 
+   background: url(https://images4.alphacoders.com/121/1215712.jpg); 
    object-fit: contain;
    background-position: center center;
    background-repeat: no-repeat;
