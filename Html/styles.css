@@ -48,7 +48,8 @@ ul{
 }
 
 .nav-brand {
-    width: 50px;
+    margin-left: 10px;
+    width: 80px;
     
     }
 
@@ -71,7 +72,7 @@ border-bottom:2px solid ;
 
 .nav-main ul.nav-menu {
     flex: 1;
-    margin-left: 560px;
+    margin-left: 650px;
 
 }
 
@@ -115,8 +116,9 @@ hr{
 
 
 
-.texxto{
-margin-bottom: 240px;
+.texto{
+    font-size: x-large;
+    margin-bottom: 370px;
 text-align: center;
 
 }
@@ -153,6 +155,7 @@ opacity: .7;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap:25px;
+    padding-bottom: 20px;
    padding-left: 20px;
     padding-right: 20px;    
 }
@@ -173,21 +176,6 @@ opacity: .7;
     margin: 10px 0px;
 }
 
-.quien-soy a{
-    padding: 10px 0px;
-    color: #f2f2f2;
-    text-transform: uppercase;
-    display: inline-block;
-    font-weight: bold;
-
-
-
-}
-
-.quien-soy a:hover{
-
-text-decoration: underline;
-}
 
 /* FONDO ABAJO*/
 
@@ -256,8 +244,8 @@ margin: 50px;
     margin: 0 20px;
 }
 .links a i{
-font-size: 3rem;
-
+    font-size: 3rem;
+    color:rgb(12, 13, 81);
 }
 
 @media (max-width:700px ){
