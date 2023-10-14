@@ -45,74 +45,39 @@ ul{
 .name-m{
     font-size:x-large;
     color:rgb(12, 13, 81);
+    margin-right: 650px;
 }
 
 .nav-brand {
+    margin-right: 20px;
     margin-left: 10px;
     width: 80px;
     
     }
 
-    /*NaV LEFT*/
-    
-.nav-main ul {
-    display: flex;
-    
-}
-    
-.nav-main ul li{
-    padding: 10px;
-}
-
-.nav-main ul li a:hover{
-border-bottom:2px solid ;
-
-
-}
-
-.nav-main ul.nav-menu {
-    flex: 1;
-    margin-left: 650px;
-
-}
-
-.menu-btn{
-    position: absolute;
-    cursor: pointer;
-    top: 15px;
-    right:30px;
-
-
-}
-
 
 /*SHOWCASE*/
-hr{
-    margin: 10px 0;
-/**/
-}
-
 
 .showcase {
-   width: 100%;
-   height: 550px;
-   padding: 500px;
-   display: flex;
-   flex-direction: column;
-   align-items:center ;
-   justify-content: flex-end;
-   margin-bottom: 20px;
+    width: 100%;
+    height: 550px;
+    padding: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+    
+    background: url(https://images4.alphacoders.com/121/1215712.jpg); 
+    object-fit: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 35px;
+    
    
-   background: url(https://images4.alphacoders.com/121/1215712.jpg); 
-   object-fit: contain;
-   background-position: center center;
-   background-repeat: no-repeat;
-   background-size: cover;
-   padding: 35px;
-   
-  
-   
-}
+    
+ }
 
 
 
@@ -120,32 +85,6 @@ hr{
     font-size: x-large;
     margin-bottom: 370px;
 text-align: center;
-
-}
-
-.btn{
-    cursor: pointer;
-    display: inline-block;
-    border:0;
-    font-weight:bold ;
-    padding: 10px 20px;
-    background: #262626;
-    color:#ffffff;
-    font-size: 15px;
-    border: 1px solid #ffffff;
-    margin: 15px 0px;
-
-    }
-
-.btn:hover{
-opacity: .7;
-
-}
-
-.showcase h2,
-.showcase p{
-    margin-bottom: 10px;
-
 
 }
 
@@ -178,14 +117,8 @@ opacity: .7;
 }
 
 
-/* FONDO ABAJO*/
+/* CARDS BANNER ONE */
 
-.cards-banner-one{
-    width: 100%;
-    height: 350px;
-    background: url(https://images.daznservices.com/di/library/DAZN_News/82/b9/gp-silverstone-formula-1-motogp_1evqrslsd385y1e93cif1dzusp.jpg?t=-1391265871) no-repeat center center/cover;
-  
-}
 
 .cards-banner-one .content{
     width: 40%;
@@ -195,13 +128,7 @@ opacity: .7;
 
 }
 
-.cards-banner-one p,
-.cards-banner-one h2{
-    margin: 10px 0 20px 0;
-
-}
-
-/*CARS TWO*/
+/*CARDS BANNER TWO*/
 
 .cards-banner-two{
     width:100%;
@@ -223,59 +150,34 @@ opacity: .7;
 /*Social*/
 
 .social{
-margin: 50px;
-
-}
-
-.social p {
+    margin: 50px;
+    
+    }
+    
+    .social p {
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 20px;
+    
+        }
+    
+    .links{
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .links a {
+    
+        margin: 0 20px;
+    }
+    .links a i{
+        font-size: 3rem;
+        color:rgb(12, 13, 81);
+    }
+    
+    .pie{
+    
     text-align: center;
-    font-size: 30px;
-    margin-bottom: 20px;
-
+    margin-bottom: 30px;    
     }
-
-.links{
-    align-items: center;
-    display: flex;
-    justify-content: center;
-}
-
-.links a {
-
-    margin: 0 20px;
-}
-.links a i{
-    font-size: 3rem;
-    color:rgb(12, 13, 81);
-}
-
-@media (max-width:700px ){
-
-    .nav-main ul.nav-menu{ 
-        display:block ;
-        position: absolute;
-        top: 0px;
-        left: 0;
-        background: #2f3640;
-        height: 100%;
-        padding: 30px;
-        opacity: .9;
-        transform: translateX(-400px);
-       
-        
-   
-
-
-}
-
-
-    .quien-soy{
-        grid-template-columns: repeat(2,1fr);
-
-    }
-    .cards-banner-one .content,
-    .cards-banner-two .content{
-
-        width: 80%;
-    }
- }
